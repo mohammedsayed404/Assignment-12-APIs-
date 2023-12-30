@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body class="bg-black">
+    <nav class="navbar navbar-expand-lg py-5" id="nav-weather">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" class="" alt="cloud logo to weatherApp">
+                <div class="d-inline-block  test">
+                    <h1>Weather</h1>
+                    <small>tagline goes here</small>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Live cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+
+            </div>
+        </div>
+    </nav>
+    <div class="location">
+        <div class="container">
+            <form class="find-location position-relative">
+                <input type="text" name="findLocation"  placeholder="Find your location...." class="form-control">
+                <input type="button" value="Find">
+            </form>
+        </div>
+    </div>
+    <div class="py-3 table-data">
+        <div class="container">
+            <div class="row g-3">                
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <form action="#" class="subscribe-form  position-relative">
+                        <input type="text" placeholder="Enter your email to subscribe..." class="form-control">
+                        <input type="submit" value="Subscribe">
+                    </form>
+                </div>
+                <div class="col-md-3 col-md-offset-1">
+                    <div class="social-links">
+                        <a href="#"><i class="fa-solid fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-solid fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-solid fa-brands fa-google-plus"></i></a>
+                        <a href="#"><i class="fa-solid fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <p class="pt-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
